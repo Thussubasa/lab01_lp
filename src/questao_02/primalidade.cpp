@@ -1,4 +1,4 @@
-#include "fatorial.h"
+#include "primalidade.h"
 
 bool isPrimo(int num, int divisor){
   if(divisor == 1)
@@ -7,7 +7,7 @@ bool isPrimo(int num, int divisor){
     if(num % divisor == 0)
       return false;
   else
-      return isPrimo(num, divisor-1)
+      return isPrimo(num, divisor-1);
 }
 
 

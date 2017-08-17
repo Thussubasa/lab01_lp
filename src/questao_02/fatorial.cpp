@@ -1,8 +1,8 @@
 #include "fatorial.h"
 
-int fat (n){
+int fat(int num){
 
-  if ((n==1)|| (n==0)) return 1;
+  if ((num==1)|| (num==0)) return 1;
     else
-      return fat(n-1)*n;
+      return fat(num-1)*num;
 }

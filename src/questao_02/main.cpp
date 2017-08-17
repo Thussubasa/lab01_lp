@@ -1,16 +1,20 @@
 #include <iostream>
-#include 'fatorial.h'
-#include 'primalidade.h'
+using std::cin;
+using std::cout;
+using std::endl;
 
-int main(void){
+#include "fatorial.h"
+#include "primalidade.h"
 
-  int n, fat, anterior;
+int main(void) {
 
-  cout << "Conversor" endl;
+  int n, fatorial, anterior;
+
+  cout << "Conversor" << endl;
   cin >> n;
 
-  fat = fatorial(n);
-  anterior = primoAnterior(fat);
+  fatorial = fat(n);
+  anterior = primoAnterior(fatorial);
 
   cout << "Maior numero primo anterior ao fatorial de 5 (120) é:" << anterior << endl;
 

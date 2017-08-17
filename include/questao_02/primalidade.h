@@ -1,6 +1,7 @@
-#ifndef
+#ifndef PRIMALIDADE_H
+#define PRIMALIDADE_H
 
-// Calculo do Fatorial
-bool isPrimo(int num, int divisor)
+bool isPrimo(int num, int divisor);
+int primoAnterior(int num);
 
-#endif
+#endif  

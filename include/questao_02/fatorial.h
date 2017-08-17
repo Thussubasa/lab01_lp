@@ -1,8 +1,7 @@
-#ifndef FAT_H
-#define FAT_H
+#ifndef FATORIAL_H
+#define FATORIAL_H
 
 // Calculo do Fatorial
-int fatorial(int n);
-
+int fat(int num);
 
 #endif
