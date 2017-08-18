@@ -2,6 +2,6 @@
 #define PRIMALIDADE_H
 
 bool isPrimo(int num, int divisor);
-int primoAnterior(int num);
+long int primoAnterior(long int num);
 
 #endif  

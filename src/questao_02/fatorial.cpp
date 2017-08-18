@@ -1,6 +1,6 @@
 #include "fatorial.h"
 
-int fat(int num){
+long int fat(int num){
 
   if ((num==1)|| (num==0)) return 1;
     else

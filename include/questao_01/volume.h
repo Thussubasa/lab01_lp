@@ -1,6 +1,9 @@
-#ifndef 
+#ifndef VOLUME_H
+#define VOLUME_H
 
-double volumePriamede(double base, double altura);
+#define PI 3.14159
+
+double volumePriamede(double area_base, double altura);
 
 double volumeCubo(double aresta);
 

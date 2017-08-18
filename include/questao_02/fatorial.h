@@ -2,6 +2,6 @@
 #define FATORIAL_H
 
 // Calculo do Fatorial
-int fat(int num);
+long int fat(int num);
 
 #endif

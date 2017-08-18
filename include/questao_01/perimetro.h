@@ -1,6 +1,9 @@
-#ifndef 
+#ifndef PERIMETRO_H
+#define PERIMETRO_H
 
-double perimetroTriangulo(double base, double altura);
+#define PI 3.14159
+
+double perimetroTriangulo(double lado);
 
 double perimetroQuadrado(double lado);
 

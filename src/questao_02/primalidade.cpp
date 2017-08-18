@@ -11,12 +11,12 @@ bool isPrimo(int num, int divisor){
 }
 
 
-int primoAnterior(int num){
+long int primoAnterior(long int num){
     
     if(isPrimo(num, num-1))
-        return true;
+        return num;
     else
-        primoAnterior(num-1);
+       return primoAnterior(num-1);
 }
 
 
