@@ -17,7 +17,7 @@ $ make
 
 ### Questão 2
 
-> Os logs do gprof estão na pasta "gprofs logs"
+> Os logs do gprof estão na pasta "doc/gprofs logs"
 > A função mais chamada é a função isPrimo() e a que consome mais tempo é a função  primoAnterior();
 ### Questao 3 
 
