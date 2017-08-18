@@ -41,5 +41,5 @@ $ make
 
  - arg1 = 11
  - arg2 = 23
- - result = -8288
+ - result = 0
 
