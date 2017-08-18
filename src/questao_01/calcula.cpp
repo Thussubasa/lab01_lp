@@ -3,6 +3,7 @@
 #include "volume.h"
 #include "perimetro.h"
 #include "area.h"
+#include <cmath> 
 
 using std::cin;
 using std::cout;
@@ -28,7 +29,7 @@ void calcular(int index)
         calculaCirculo();
         break;
     case 5:
-        alculaPiramede();
+        calculaPiramede();
         break;
     case 6:
         calculaCubo();
@@ -37,7 +38,7 @@ void calcular(int index)
         calculaParalelepido();
         break;
     case 8:
-        alculaEsfera();
+        calculaEsfera();
         break;
     default:
         cout << "Entre com uma opção valida" << endl;
@@ -105,7 +106,7 @@ void calculaPiramede()
     cin >> altura;
 
     cout << "Area do retangulo: " << areaRetangulo(base, altura) << endl;
-    cout << "Perimetro do retangulo: " << perimetroRetangulo(base, altura) << endl
+    cout << "Perimetro do retangulo: " << perimetroRetangulo(base, altura) << endl;
 }
 
 void calculaCubo()

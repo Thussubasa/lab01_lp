@@ -30,7 +30,11 @@ int main()
         cin >> opcao;
 
         calcular(opcao);
+        cout << "++++++++++++++++++++++++++++++++++" << endl;
     }
 
     return 0;
 }
+
+
+

@@ -16,7 +16,7 @@ double areaQuadrado(double lado)
     double area;
     area = pow(lado, 2);
 
-    return area
+    return area;
 }
 
 double areaRetangulo(double base, double altura)
